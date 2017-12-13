@@ -1,0 +1,178 @@
+@font-face {
+  font-family: "Oswald-HeavyItalic.ttf";
+  src: url("../fonts/Oswald-HeavyItalic.ttf");
+}
+
+.ticket{
+  font-family: $ff;
+}
+
+
+.rock{
+  h1{
+    font-family: $ffos;
+    font-size: 116px;
+    font-weight: 700;
+    line-height: 85.6px;
+    color: $bgc;
+    letter-spacing: -8px;
+    text-transform: uppercase;
+  }
+  h2{
+    font-family: $ffGv;
+    color: #333333;
+    font-size: 80px;
+    font-weight: 400;
+  }
+  a{
+    font-family: $ff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+  }
+}
+
+.wrap-members{
+  h2{
+    color: $col;
+    font-family: $osv;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0;
+    padding-top: 103px;
+  }
+  .mem{
+    color: $bgc;
+    font-family: $ffGv;
+    font-weight: 400;
+  }
+}
+
+.bgr{
+    h4{
+      font-family: $ffos;
+      font-size: 22px;
+      line-height: 20px;
+      color: $scolor;
+    }
+    p{
+      font-family: $ff;
+      font-size: 16px;
+      color: $scolor;
+      font-weight: 400;
+    }
+}
+
+.network{
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.our-founder{
+  color: $scolor;
+  h2{
+    font-family: $osv;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  p{
+    margin: 0;
+    font-family: $ff;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .cantus{
+    font-family: $ffGv;
+    font-size: 65px;
+    font-weight: 400;
+  }
+  .learn{
+    color: $bgc;
+    font-family: $ff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+}
+
+.article_one{
+  h2{
+    color: $col;
+    font-family: $osv;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0;
+  }
+  .Songs{
+    color: $bgc;
+    font-family: $ffGv;
+    font-weight: 400;
+  }
+}
+
+.article_two{
+  h2{
+    color: $col;
+    font-family: $osv;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0;
+  }
+  .feed{
+    color: $bgc;
+    font-family: $ffGv;
+    font-weight: 400;
+  }
+}
+
+.list-music{
+  ol{
+    li{
+      color: $col;
+      font-family: $ff;
+      font-size: 16px;
+      font-weight: 400;
+      border-bottom: 1px solid #999999;
+      a{
+        color: $col;
+        font-family: $ff;
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+        line-height: 40px;
+        transition: .5s ease-in-out;
+        &:hover{
+          color: $bgc;
+          transition: .5s ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+.app{
+  h3{
+    color: $scolor;
+    font-family: $osv;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+  }
+  p{
+    color: $scolor;
+    font-family: $ff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.1px;
+  }
+}

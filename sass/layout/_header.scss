@@ -1,0 +1,101 @@
+.hfon{
+  width: 100%;
+  height: 100px;
+  background-color: $bgc;
+}
+
+.wrap{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav{
+  ul{
+    margin-left: 50px;
+    li{
+      a{
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 30px;
+        border-radius: 27px;
+        text-transform: uppercase;
+        padding: 20px 20px;
+        transition: .5s ease-in-out;
+      }
+    }
+  }
+}
+
+.menu{
+  li{
+    a{
+      &:hover{
+        background-color: $scolor;
+        color: $bgc;
+        transition: .5s ease-in-out;
+      }
+    }
+  }
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+    li{
+    display: inline-block;
+    }
+      a{
+        text-decoration: none;
+        font-family: $ff;
+        color: $scolor;
+  }
+}
+
+
+
+.ticket{
+  padding: 20px 44px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: $bgc;
+  background-color: $scolor;
+  border-radius: 27px;
+  margin-right: 50px;
+  border: 4px solid transparent;
+  transition: .5s ease-in-out;
+    &:hover{
+      border: 4px solid $scolor;
+      background-color: $bgc;
+      color: $scolor;
+      margin-right: 50px;
+      transition: .5s ease-in-out;
+  }
+}
+
+
+.fa {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 44px;
+  text-transform: uppercase;
+  margin-right: 26px;
+  padding: 7px 20px;
+  border-radius: 29px;
+  transition: .5s ease-in-out;
+    &:hover {
+    background-color: $scolor;
+    color: $bgc;
+    transition: .5s ease-in-out;
+  }
+}
+
+.soc{
+  padding-left: 10px;
+  font-size: 14px;
+}
